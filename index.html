@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Iron Fuel - Modern gym with free weights, machines, cardio equipment, and an on-site performance restaurant.">
+  <title>Iron Fuel | Gym & Performance Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">IRON <span>FUEL</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <h1>IRON <span>FUEL</span></h1>
+      <p>Where strength meets nutrition. Train hard, eat smart, and fuel your performance at our state-of-the-art facility.</p>
+      <div>
+        <a href="training.html" class="btn btn-primary">Start Training</a>
+        <a href="menu.html" class="btn btn-secondary">View Menu</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Iron Fuel?</h2>
+          <p>We're not just a gym. We're not just a restaurant. We're the complete performance destination.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🔗</div>
+            <h3>Training + Nutrition United</h3>
+            <p>Most gyms ignore nutrition. Most restaurants ignore fitness. We bring both together under one roof so your workout and your meals work in sync.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Macro-Transparent Meals</h3>
+            <p>Every dish on our menu comes with complete nutritional breakdowns. No guessing, no tracking apps needed—just eat and know exactly what you're getting.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Goal-Specific Options</h3>
+            <p>Whether you're bulking, cutting, or maintaining, we have dedicated meal plans and training programs designed for your specific goals.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Zero Wasted Time</h3>
+            <p>Train hard, then walk straight to the restaurant for a post-workout meal. No meal prep, no extra stops, no excuses for bad nutrition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <h2>What We Offer</h2>
+          <p>Everything you need to build strength and fuel performance.</p>
+        </div>
+        <div class="offer-grid">
+          <div class="offer-card">
+            <div class="offer-icon">🏋️</div>
+            <h3>Training Facilities</h3>
+            <p>Our gym floor is equipped for serious training at any level.</p>
+            <ul class="offer-list">
+              <li>Free weights from 5 to 150 lbs</li>
+              <li>Olympic platforms and squat racks</li>
+              <li>Full machine circuit for isolation work</li>
+              <li>Cardio deck with treadmills, bikes, and rowers</li>
+              <li>Functional training area with kettlebells and sleds</li>
+            </ul>
+            <a href="training.html" class="btn btn-primary">Explore Training</a>
+          </div>
+          <div class="offer-card">
+            <div class="offer-icon">🍽️</div>
+            <h3>Performance Restaurant</h3>
+            <p>Fuel your results with meals built for athletes.</p>
+            <ul class="offer-list">
+              <li>Bulking meals: high-calorie, protein-packed plates</li>
+              <li>Cutting meals: lean, macro-friendly options</li>
+              <li>Complete macro info on every dish</li>
+              <li>Fresh ingredients prepared daily</li>
+              <li>Meal prep services available</li>
+            </ul>
+            <a href="menu.html" class="btn btn-primary">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Ready to Transform?</h2>
+          <p>Take the first step toward your fitness goals today.</p>
+        </div>
+        <div style="text-align: center;">
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Iron Fuel</h4>
+        <p>Where strength meets nutrition.</p>
+        <p>Building champions since 2020.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="training.html">Training</a>
+        <a href="menu.html">Restaurant Menu</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Hours</h4>
+        <p>Mon-Fri: 5AM - 11PM</p>
+        <p>Sat-Sun: 6AM - 10PM</p>
+        <p>Restaurant: 7AM - 9PM</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>123 Fitness Boulevard</p>
+        <p>Orlando, FL 32816</p>
+        <p>info@ironfuel.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Iron Fuel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-menu').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
