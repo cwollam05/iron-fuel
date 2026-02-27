@@ -38,6 +38,14 @@
       </div>
     </section>
 
+    <div class="filter-bar">
+      <div class="container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bulking">Bulking</button>
+        <button class="filter-btn" data-filter="cutting">Cutting</button>
+      </div>
+    </div>
+
     <section class="section">
       <div class="container">
         <div class="section-header">
@@ -48,17 +56,17 @@
         <div class="menu-section">
           <h3>Breakfast</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>The Mass Builder <span class="price">$14.99</span></h4>
               <p>6 eggs, 4 strips of turkey bacon, sweet potato hash, whole grain toast with almond butter.</p>
               <span class="macros">850 cal | 52g protein | 68g carbs | 42g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Protein Pancake Stack <span class="price">$12.99</span></h4>
               <p>4 protein pancakes with banana, mixed berries, Greek yogurt, and sugar-free maple syrup.</p>
               <span class="macros">720 cal | 48g protein | 82g carbs | 22g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Gainz Oatmeal Bowl <span class="price">$10.99</span></h4>
               <p>Steel cut oats with whey protein, peanut butter, banana, honey, and chia seeds.</p>
               <span class="macros">680 cal | 38g protein | 78g carbs | 26g fat</span>
@@ -69,27 +77,27 @@
         <div class="menu-section">
           <h3>Lunch & Dinner</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Iron Burger <span class="price">$16.99</span></h4>
               <p>Double beef patty, cheddar, bacon, avocado on a brioche bun with sweet potato fries.</p>
               <span class="macros">1100 cal | 62g protein | 72g carbs | 58g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Chicken & Rice Mass Plate <span class="price">$15.99</span></h4>
               <p>12oz grilled chicken thighs, jasmine rice, black beans, grilled vegetables, and chimichurri.</p>
               <span class="macros">920 cal | 68g protein | 86g carbs | 28g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Salmon Power Bowl <span class="price">$18.99</span></h4>
               <p>8oz Atlantic salmon, brown rice, roasted vegetables, avocado, and teriyaki glaze.</p>
               <span class="macros">880 cal | 52g protein | 74g carbs | 38g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Steak & Potato Fuel Up <span class="price">$22.99</span></h4>
               <p>10oz ribeye, loaded baked potato, grilled asparagus, and garlic butter.</p>
               <span class="macros">1150 cal | 72g protein | 68g carbs | 62g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Pasta Powerhouse <span class="price">$14.99</span></h4>
               <p>Whole wheat pasta with ground turkey, marinara, parmesan, and garlic bread.</p>
               <span class="macros">980 cal | 58g protein | 112g carbs | 32g fat</span>
@@ -109,12 +117,12 @@
         <div class="menu-section">
           <h3>Breakfast</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Egg White Scramble <span class="price">$11.99</span></h4>
               <p>8 egg whites with spinach, tomatoes, mushrooms, and feta cheese. Side of turkey sausage.</p>
               <span class="macros">320 cal | 42g protein | 12g carbs | 10g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Greek Yogurt Parfait <span class="price">$9.99</span></h4>
               <p>Non-fat Greek yogurt with berries, low-sugar granola, and a drizzle of honey.</p>
               <span class="macros">280 cal | 28g protein | 34g carbs | 4g fat</span>
@@ -125,27 +133,27 @@
         <div class="menu-section">
           <h3>Lunch & Dinner</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Grilled Chicken Salad <span class="price">$13.99</span></h4>
               <p>8oz chicken breast over mixed greens, cucumber, tomato, and balsamic vinaigrette.</p>
               <span class="macros">380 cal | 48g protein | 16g carbs | 14g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Shrimp Stir-Fry <span class="price">$15.99</span></h4>
               <p>Grilled shrimp with broccoli, bell peppers, snap peas over cauliflower rice.</p>
               <span class="macros">340 cal | 38g protein | 22g carbs | 12g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Turkey Lettuce Wraps <span class="price">$12.99</span></h4>
               <p>Seasoned ground turkey, water chestnuts, and Asian slaw in butter lettuce cups.</p>
               <span class="macros">360 cal | 42g protein | 18g carbs | 14g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Grilled Fish Plate <span class="price">$16.99</span></h4>
               <p>8oz grilled tilapia with steamed broccoli, asparagus, and lemon herb sauce.</p>
               <span class="macros">320 cal | 46g protein | 14g carbs | 8g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Lean Beef Bowl <span class="price">$15.99</span></h4>
               <p>6oz lean ground beef over zucchini noodles with marinara and fresh basil.</p>
               <span class="macros">420 cal | 44g protein | 18g carbs | 20g fat</span>
@@ -165,22 +173,22 @@
         <div class="menu-section">
           <h3>Bulking Shakes</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Mass Gainer Shake <span class="price">$9.99</span></h4>
               <p>Whey protein, whole milk, oats, peanut butter, banana, and honey.</p>
               <span class="macros">650 cal | 45g protein | 68g carbs | 22g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Chocolate Power Shake <span class="price">$8.99</span></h4>
               <p>Chocolate whey, whole milk, banana, almond butter, and cocoa.</p>
               <span class="macros">580 cal | 42g protein | 52g carbs | 24g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>Tropical Bulk Smoothie <span class="price">$8.99</span></h4>
               <p>Vanilla whey, coconut milk, mango, pineapple, and Greek yogurt.</p>
               <span class="macros">520 cal | 38g protein | 62g carbs | 14g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="bulking">
               <h4>PB&J Shake <span class="price">$8.99</span></h4>
               <p>Vanilla whey, whole milk, peanut butter, mixed berries, and oats.</p>
               <span class="macros">560 cal | 40g protein | 54g carbs | 20g fat</span>
@@ -191,22 +199,22 @@
         <div class="menu-section">
           <h3>Cutting Shakes</h3>
           <div class="menu-grid">
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Lean Green Smoothie <span class="price">$7.99</span></h4>
               <p>Spinach, protein powder, almond milk, banana, and peanut butter powder.</p>
               <span class="macros">260 cal | 32g protein | 28g carbs | 6g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Berry Protein Blast <span class="price">$7.99</span></h4>
               <p>Whey isolate, unsweetened almond milk, mixed berries, and ice.</p>
               <span class="macros">180 cal | 30g protein | 14g carbs | 2g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Coffee Protein Shake <span class="price">$7.99</span></h4>
               <p>Cold brew, chocolate whey isolate, almond milk, and ice.</p>
               <span class="macros">160 cal | 28g protein | 8g carbs | 2g fat</span>
             </div>
-            <div class="menu-item">
+            <div class="menu-item" data-category="cutting">
               <h4>Vanilla Almond Shake <span class="price">$6.99</span></h4>
               <p>Vanilla whey isolate, unsweetened almond milk, cinnamon, and ice.</p>
               <span class="macros">140 cal | 28g protein | 6g carbs | 2g fat</span>
@@ -319,5 +327,6 @@
       document.querySelector('.nav-menu').classList.toggle('active');
     });
   </script>
+  <script src="script.js"></script>
 </body>
 </html>
